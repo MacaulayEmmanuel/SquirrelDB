@@ -1,0 +1,11 @@
+# query 1
+This query selects the Date column and counts the number of rows for each unique date using the COUNT(*) function. The results are then grouped by date using the GROUP BY clause. The results are then sorted in descending order by the count of sightings using the ORDER BY clause. Finally, the LIMIT 1 clause is used to retrieve only the top row, which corresponds to the date with the highest number of sightings.
+
+# query 2
+This query selects the Age column and counts the number of squirrels that are running for each age category. The WHERE clause is used to filter the dataset to only include squirrels that are running. The results are grouped by age using the GROUP BY clause. The COUNT(*) function is used to count the number of rows in each age category that meet the WHERE condition. The output will show the total number of runs for both adult and juvenile squirrels.. We can compare the counts to see which age group runs more. 
+
+# query 3
+This query selects the Unique_Squirrel_ID, Hectare, Approach_Count, Age, and Primary_Fur_Color columns from the table. The WHERE clause is used to filter the dataset to only include squirrels that are approachable. The results are sorted in descending order by the number of approaches using the ORDER BY clause. The output will show the Unique_Squirrel_ID and Hectare where the squirrels are most approachable, as well as the number of approaches, age category, and primary fur color for each squirrel. We can use this information to determine which squirrels and areas are more willing to approach humans.
+
+# query 4
+This query selects the Eating column and counts the number of squirrels that are eating or not eating for each approachable category. The WHERE clause is used to filter the dataset to only include squirrels that are approachable. The results are grouped by Eating using the GROUP BY clause. The COUNT(*) function is used to count the number of rows in each eating category that meet the WHERE condition. The output shows the frequency of eating behavior among approachable squirrels. We can compare the counts to see if there is a difference in the frequency of eating behavior between approachable and non-approachable squirrels
